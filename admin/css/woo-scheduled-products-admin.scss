@@ -1,0 +1,42 @@
+/* compile */
+
+#schedule_product_data div.form-field {
+  padding: 5px 20px 5px 162px !important;
+  margin: 9px 0;
+
+  input.woo-scheduled-products-datepicker {
+    width: 180px !important;
+    margin-right: 10px !important;
+  }
+
+  select {
+    float: none;
+  }
+
+  .timepicker-container {
+    margin-left: 10px;
+  }
+}
+
+.publish-fields div.form-field {
+  input.woo-scheduled-products-datepicker {
+    width: 180px !important;
+    margin-right: 10px !important;
+    display: inline-block;
+  }
+
+  .timepicker-container {
+    display: inline-block;
+    margin-left: 10px;
+    white-space: nowrap;
+
+    select {
+      float: none;
+      display: inline-block;
+    }
+
+    .divider {
+      display: inline-block;
+    }
+  }
+}
